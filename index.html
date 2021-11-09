@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron text-center">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+        <table class="table table-hover">
+            <tbody class="table-items">
+              <tr>
+                <th class="col-1"scope="row">7:00 am</th>
+                <td class="col-9"><textarea class="form-control" id= "7"></textarea></td>
+                <td class="col-1"><button type="button" data-id="7" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">8:00 am</th>
+                <td class="col-9"><textarea class="form-control" id= "8"></textarea></td>
+                <td class="col-1"><button type="button" data-id="8"  class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">9:00 am</th>
+                <td class="col-9"><textarea class="form-control" id= "9"></textarea></td>
+                <td class="col-1"><button type="button" data-id="9" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">10:00 am</th>
+                <td class="col-9"><textarea class="form-control" id= "10"></textarea></td>
+                <td class="col-1"><button type="button" data-id="10" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">11:00 am</th>
+                <td class="col-9"><textarea class="form-control" id= "11"></textarea></td>
+                <td class="col-1"><button type="button" data-id="11" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">12:00 pm</th>
+                <td class="col-9"><textarea class="form-control" id= "12"></textarea></td>
+                <td class="col-1"><button type="button" data-id="12" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">1:00 am</th>
+                <td class="col-9"><textarea class="form-control" id= "13"></textarea></td>
+                <td class="col-1"><button type="button" data-id="13" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">2:00 pm</th>
+                <td class="col-9"><textarea class="form-control" id= "14"></textarea></td>
+                <td class="col-1"><button type="button" data-id="14" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">3:00 pm</th>
+                <td class="col-9"><textarea class="form-control" id= "15"></textarea></td>
+                <td class="col-1"><button type="button" data-id="15" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">4:00 pm</th>
+                <td class="col-9"><textarea class="form-control" id= "16"></textarea></td>
+                <td class="col-1"><button type="button" data-id="16" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">5:00 pm</th>
+                <td class="col-9"><textarea class="form-control" id= "17"></textarea></td>
+                <td class="col-1"><button type="button" data-id="17" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">6:00 pm</th>
+                <td class="col-9"><textarea class="form-control" id= "18"></textarea></td>
+                <td class="col-1"><button type="button" data-id="18" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+              <tr>
+                <th class="col-1"scope="row">7:00 pm</th>
+                <td class="col-9"><textarea class="form-control" id= "19"></textarea></td>
+                <td class="col-1"><button type="button" data-id="19" class="save-btn m-0 btn btn-primary btn-lg btn-block">Save</button></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
