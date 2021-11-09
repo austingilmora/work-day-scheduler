@@ -35,4 +35,13 @@ function loadText() {
     }
 };
 
+function currentTime() {
+    //get the full day, full month and data
+    var currentDay = moment().format("dddd, MMMM Do");
+    //set the header to say the day
+    $("#currentDay").html(currentDay);
+};
+
+currentTime();
 loadText();
+setInterval(loadText,((1000*60)*15));
